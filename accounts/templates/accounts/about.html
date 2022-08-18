@@ -1,0 +1,180 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ebeneze Firm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+    
+    {% include 'accounts/navbar.html'%}
+    <div class="container">
+    {% block content %}
+
+    <br class="mt-5">
+    <section class="py-5">
+      <div class="row  flex-wrap">
+        <div class="col-xs-12 col-sm-6 col-md-9">
+          <div class="py-5 px-3">
+            <h2 class="text-danger">Background</h2>
+            <p>Ebenezer Malomo & Company is a firm of Chartered Accountants, 
+              which provides Auditing, Taxation, Accountancy and Management Consultancy Services to Individuals, 
+              Corporate Bodies, Government and Non-Governmental Organizations. 
+              The firm is also a registered Reporting Accountant with the Securities and Exchange Commission (SEC).  
+              The firm consists of well-experienced professionals with a wide range of multi-disciplinary background. 
+              The diverse nature of the firm enables it to provide independent impartial, 
+              comprehensive management support, audit assurance and investigative services.  
+              Others are taxation and financial advisory services based on high level of professional competence.
+            </p>
+         </div>
+
+
+         <div class="py-3 shadow-lg p-3 mb-5 bg-white rounded">
+          <h5 class="text-decoration-underline text-danger pb-5">Our Values</h5>
+          <div class="row text-dark">
+            <dt class="">Passion</dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+            <dt >Integrity</dt>
+            <dd >
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+            <dt >enrichment</dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+            <dt >Loyalty</dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+            <dt >Ownership</dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+            <dt ">Teamwork</dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Porro tenetur sint reprehenderit quisquam sunt deleniti similique voluptas laboriosam quae.
+                 Voluptate excepturi architecto fuga perspiciatis nostrum dolorum 
+                 facere nesciunt magnam laboriosam?
+              </p>
+            </dd>
+
+        </div>
+         </div>
+
+        </div>
+
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div  class="py-5">
+            <ul class="list-unstyled">
+              <li>
+                <a href="{% url 'team' %}" class="text-decoration-none ">
+                  <span class="fs-5 text-danger"><i class="bi bi-arrow-right"></i> Our Team</span>
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="text-decoration-none ">
+                  <span class="fs-5 text-danger"><i class="bi bi-arrow-right"></i> Our Procedure</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+
+          <div class="">
+            <h5>Our Vision</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae sequi voluptas exercitationem. Accusantium necessitatibus, eius eaque 
+              dicta eveniet odio dolore dignissimos architecto reiciendis perspiciatis repellat ipsum dolor. 
+              Molestias, accusamus.
+            </p>
+          </div>
+
+          <div class="py-2">
+            <h5>Our Mission</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, beatae atque obcaecati ipsam soluta alias 
+              facilis eum maiores dolor natus sit sint eius doloribus 
+              quod blanditiis voluptatibus eligendi tempora veniam?
+            </p>
+          </div>
+
+          <div class="py-2">
+            <div class="card bg-dark">
+              <div class="card-body">
+                <span class="fs-1">
+                  <i class="bi bi-chat-left-text"></i>
+                </span>
+                <p class="fs-3">we will develope service process that is appropriate for your need.</p>
+              
+                <div class="py-3">
+                  <a href="#" class="btn btn-primary"><i class="bi bi-telephone-inbound px-2"></i>:  +234 (0) 803714 3355</a>
+                </div>
+
+                <div class="py-1">
+                  <a href="{% url 'contact' %}" class="btn btn-danger"><i class="bi bi-calendar3 px-2"></i>Book an appointment</a>
+                </div>
+                
+
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+
+
+      </div>
+
+           
+    </section>
+
+    
+
+
+    {% endblock %}
+    </div>
+
+    {% include  'accounts/footer.html' %}
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>

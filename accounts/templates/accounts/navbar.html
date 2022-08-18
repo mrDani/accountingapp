@@ -1,0 +1,40 @@
+ {% load static %}
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top text-center" >
+  <div class="container">
+    <a class="navbar-brand" href="#"><span class="text-warning fs-1">Ebeneza</span> <small class="text-danger">Firm</small></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercases">
+        <li class="nav-item">
+          <a class="nav-link active"aria-current="page" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  active" href="{% url 'about' %}">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link  active dropdown-toggle" href="{% url 'services' %}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'services' %}#taxation">Taxation Service</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'services' %}#audit">Audit</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'services' %}#informartion_system">Accounting & Management Information </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'services' %}#advisory_service">Advisory Service</a></li>
+          </ul>
+          <li class="nav-item">
+            <a class="nav-link  active" href="{% url 'faqs' %}">faqs</a>
+          </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="{% url 'contact' %}">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+
