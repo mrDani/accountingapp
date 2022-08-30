@@ -5,9 +5,9 @@
 }
 
 body{
-    font-family: Georgia, serif;
-    color: #ffffff;
-    background: #580599;
+    font-family: Georgia, serif !important;
+    color: #ffffff !important;
+    background: #580599 !important;
     position: relative;
     height: 100%;
     z-index: -3;
